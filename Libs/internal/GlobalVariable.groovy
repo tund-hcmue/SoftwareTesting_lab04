@@ -22,12 +22,17 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object URL
+    public static Object url
      
     /**
      * <p></p>
      */
-    public static Object UsernameDev
+    public static Object pass
+     
+    /**
+     * <p></p>
+     */
+    public static Object URL
      
     /**
      * <p></p>
@@ -49,6 +54,16 @@ public class GlobalVariable {
      */
     public static Object PassFail
      
+    /**
+     * <p></p>
+     */
+    public static Object UsernameDev
+     
+    /**
+     * <p></p>
+     */
+    public static Object PassDev
+     
 
     static {
         try {
@@ -58,12 +73,15 @@ public class GlobalVariable {
     
             username = selectedVariables['username']
             usernames = selectedVariables['usernames']
+            url = selectedVariables['url']
+            pass = selectedVariables['pass']
             URL = selectedVariables['URL']
-            UsernameDev = selectedVariables['UsernameDev']
             UsernameQA = selectedVariables['UsernameQA']
             UsernameFail = selectedVariables['UsernameFail']
             PassQA = selectedVariables['PassQA']
             PassFail = selectedVariables['PassFail']
+            UsernameDev = selectedVariables['UsernameDev']
+            PassDev = selectedVariables['PassDev']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

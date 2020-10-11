@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'), 
-    GlobalVariable.UsernameQA)
+    GlobalVariable.UsernameDev)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login'))
 
